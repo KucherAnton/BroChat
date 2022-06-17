@@ -1,0 +1,46 @@
+.me-2 {
+    height: 40px;
+}
+
+.fs-4 {
+    margin-left: 10px;
+}
+
+.d-inline-flex {
+    font-size: 20px;
+}
+
+.col{
+    height: 350px;
+}
+
+.col {
+    margin: auto;
+}
+
+.col2 {
+    margin-top: 0;
+}
+
+.broName {
+    margin-top: 10px;
+}
+
+.broTitle {
+    font-size: 20px;
+}
+
+.brotton {
+    margin-top: 50px;
+}
+
+.broInput {
+    outline: none;
+    width: 75%;
+    padding: 8px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
