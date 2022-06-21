@@ -5,6 +5,6 @@ var io = require('socket.io')(server);
 
 server.listen(3000);
 
-app.get('/', function(request, response) {
-    response.sendFile(__dirname + '/index.html');
+app.get('/', function (request, response) {
+	response.sendFile(__dirname + '/index.html');
 });
