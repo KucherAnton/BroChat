@@ -35,7 +35,8 @@
 						BroChat
 					</h1>
 					<p class="fs-5 text-muted">
-						It's a place, where you can send bro to your friend and opposite, recieve bro from him. BroChat — is the best method to make more bros. <br /> 
+						It's a place, where you can send bro to your friend and opposite, recieve bro from him. 
+						BroChat — is the best method to make more bros. <br /> 
 						Just send a bro to your bro to make your broship stronger.
 					</p>
 				</div>
@@ -73,5 +74,12 @@
 				</div>
 			</main>
 		</div>
+		<script src="/index.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			(function() {
+				var socket = io.connect();
+			});
+		</script>
 	</body>
 </html>
