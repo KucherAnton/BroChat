@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000W\u0000e\u0000b\u0000C\u0000h\u0000a\u0000t\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/KucherAnton/WebChat#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
     "socket.io": "^4.5.1"
   }
 }
